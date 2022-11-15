@@ -1,5 +1,5 @@
 {
-  "name": "start-up-crm-dashboard",
+  "name": "@ts/next-charka-ui-starter",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,14 +9,30 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.4.1",
+    "@emotion/cache": "^11.10.5",
+    "@emotion/react": "^11.10.5",
+    "@emotion/server": "^11.10.0",
+    "@emotion/styled": "^11.10.5",
     "@types/node": "18.11.9",
     "@types/react": "18.0.25",
     "@types/react-dom": "18.0.9",
     "eslint": "8.27.0",
     "eslint-config-next": "13.0.3",
+    "framer-motion": "^7.6.7",
     "next": "13.0.3",
+    "rc-tabs": "^12.3.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-modal-video": "^1.2.10",
+    "react-scroll": "^1.8.8",
+    "react-slick": "^0.29.0",
+    "react-stickynode": "^4.1.0",
     "typescript": "4.8.4"
+  },
+  "devDependencies": {
+    "@types/react-modal-video": "^1.2.0",
+    "@types/react-slick": "^0.23.10",
+    "@types/react-stickynode": "^4.0.0"
   }
 }
